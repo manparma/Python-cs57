@@ -1,4 +1,4 @@
-# Homework assignments
+# Homework assignment 1
 
 #   1. Evaluate ((True and False) and True) or (True and False) or (True or True)
 print ((True and False) and True) or (True and False) or (True or True)  # True
