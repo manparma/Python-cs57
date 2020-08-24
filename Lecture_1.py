@@ -1,3 +1,5 @@
+from pip._vendor.distlib.compat import raw_input
+
 #   defining variable name
 x = 5
 y = 9
@@ -85,3 +87,34 @@ x = 2
 x + 3.0  # 5.0 (float)
 
 x = x + 1.0  # 3.0 (float)
+
+# Strings
+a = "abc"
+b = "hello"
+
+print(a*2)
+print(b+'3')
+
+#   Built in operators
+# len:
+a = "losangeles"
+print(len(a))
+
+# indexing:
+print(a[0])
+print(a[3])
+print(a[-1])
+
+# slicing (substring):
+print(a[1:3])   # 3-1=2 tells you length
+print(a[5:9])
+
+# My first Hello World Program: Hello World!
+print('Hello World!')
+
+# My second program: area of a rectangle
+s1 = 2
+s2 = 3
+area = s1*s2
+print(area)
+
