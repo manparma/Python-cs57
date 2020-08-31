@@ -51,6 +51,8 @@ print(a[2:4])   # [2, 4]
 # Range is used to create lists of integers
 
 print(list(range(4)))       # [0, 1, 2, 3]
+print(list(range(4, 8)))     # [4, 5, 6, 7]
+print(list(range(1, 13, 2)))  # [1, 3, 5, 7, 9, 11]
 
 
 
