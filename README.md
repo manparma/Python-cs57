@@ -10,4 +10,6 @@
 
 ## Lecture 2
 - 
-*
+* Range function
+* While Loop
+* 
