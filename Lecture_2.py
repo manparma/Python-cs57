@@ -1,3 +1,4 @@
+# coding=utf-8
 # Lecture 2
 
 # A note on shorthand notation w/ primitives
@@ -173,4 +174,37 @@ elif (y == 4):
 else:
     print "!"
 
+# Exercise 1: Let’s build a program that checks a students score and outputs a letter grade. Assume the scores are from 1 to 100.
+# Score between 90 and 100 is an “A”
+# Score between 80 and 89 is a “B”
+# Score between 70 and 79 is a “C”
 
+score = int(raw_input("Enter your score: "))
+if score >= 90 and score <= 100:
+    print "A"
+elif score >= 80:
+    print "B"
+elif score >= 70:
+    print "C"
+elif score >= 60:
+    print "D"
+elif score <60:
+    print "F"
+
+# Studentlist
+studentList = ["Bob", "Charlie", "Jessica", "Sally"]
+student = "Allison"
+if student in studentList:
+    print (student + " is in the class!")
+else:
+    print (student + " is NOT in the class!")
+
+#Exercise 1: Sum the first 5 numbers (inclusive) with a while loop
+total = 0 #instantiates total variable and assigns value
+number = 0 #instantiates number variable and assigns value
+
+while (number < 5): #condition stays true as long as number < 5
+    number += 1 #increments number by 1
+    total += number #adds number to sum to give updated subtotal value
+
+print "The sum of numbers from 1 to 5 is ", total
