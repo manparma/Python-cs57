@@ -208,3 +208,6 @@ while (number < 5): #condition stays true as long as number < 5
     total += number #adds number to sum to give updated subtotal value
 
 print "The sum of numbers from 1 to 5 is ", total
+
+
+# Troubleshooting: Type-casting
